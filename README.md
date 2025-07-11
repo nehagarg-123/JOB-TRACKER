@@ -96,4 +96,4 @@ The frontend will run on `http://localhost:5173` (default Vite port).
 
 ## License
 
-This project is licensed under the ISC License.
+This project is licensed under the MIT License.
