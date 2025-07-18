@@ -24,7 +24,7 @@ const NavBar = () => {
         >
           <Link
             to="/signup"
-            className="btn btn-lg btn-primary d-block mt-4 mb-3 mt-md-0 mb-md-0"
+            className="btn btn-lg btn-success d-block mt-4 mb-3 mt-md-0 mb-md-0"
           >
             Sign up
           </Link>
