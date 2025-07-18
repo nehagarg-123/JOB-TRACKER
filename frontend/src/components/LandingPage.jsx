@@ -9,7 +9,7 @@ const LandingPage = () => {
           <img className="w-100" src={board} />
         </div>
         <div className="col-md-5">
-          <h1 className="display-1 text-center mt-4">JOB MANAGER</h1>
+          <h1 className="display-1 fw-semibold fs-1 text-center mt-4">JOB TRACKER</h1>
           <p className="mt-4">
             Take control of your workday with Job Manager — the simplest way to
             organize, track, and prioritize your jobs. Whether you're managing
@@ -24,7 +24,7 @@ const LandingPage = () => {
             next. Get started today and experience a smarter way to manage your
             workload.
           </p>
-          <Link to="/signup" className="btn btn-lg btn-primary d-block">
+          <Link to="/signup" className="btn btn-lg btn-success d-block">
             Get Started
           </Link>
         </div>
