@@ -68,6 +68,7 @@ const UpdateTask = () => {
           />
           <select name="status" className="form-control">
             <option value="pending">pending</option>
+            <option value="Online-Assessment">Online-Assessment</option>
             <option value="interview">interview</option>
             <option value="declined">declined</option>
           </select>
