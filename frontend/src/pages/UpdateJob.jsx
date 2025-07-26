@@ -71,6 +71,15 @@ const UpdateTask = () => {
             <option value="interview">interview</option>
             <option value="declined">declined</option>
           </select>
+          
+          <input
+            type="date"
+             name="statusDate"
+             className="form-control mt-2"
+              value={job.statusDate ? job.statusDate.slice(0, 10) : ''} // format for input
+             onChange={(e) => setJob({ ...job, statusDate: e.target.value })}
+           />
+          
           <div className="mt-4">
             <button type="submit" className="btn btn-dark w-100 btn-lg mb-2">
               Edit
