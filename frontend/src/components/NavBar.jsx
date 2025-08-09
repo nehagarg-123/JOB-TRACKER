@@ -22,15 +22,29 @@ const NavBar = () => {
           className="collapse navbar-collapse justify-content-md-end gap-md-2"
           id="navbarNav"
         >
-          <Link
-            to="/signup"
-            className="btn btn-lg btn-success d-block mt-4 mb-3 mt-md-0 mb-md-0"
-          >
-            Sign up
-          </Link>
+         <Link
+        to="/signup"
+      className="btn btn-lg d-block mt-4 mb-3 mt-md-0 mb-md-0"
+       style={{
+         backgroundColor: "#f0f1f3ff", // matches landing page blue
+         color: "#392a57ff", // white text
+         fontWeight: "bold",
+          padding: "10px 15px",
+         boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.2)",
+        }}
+         >
+       Sign up
+      </Link>
           <Link
             to="/login"
             className="btn btn-lg btn-outline-light d-block mb-4 mb-md-0"
+            style={{
+         // matches landing page blue
+          color: "#e7e5e9ff", // white text
+          fontWeight: "bold",
+          padding: "10px 15px",
+         boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.2)",
+        }}
           >
             Log in
           </Link>
