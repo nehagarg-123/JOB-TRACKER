@@ -117,6 +117,12 @@ const Dashboard = () => {
               placeholder="Position"
               required
             />
+            <input
+              className="form-control mb-3"
+              type="url"
+              name="jobLink"
+              placeholder="Job Link (Optional)"
+            />
             <div>
               <button
                 type="submit"
