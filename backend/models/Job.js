@@ -12,14 +12,31 @@ const jobSchema = new mongoose.Schema(
       required: [true, 'Please provide position'],
       maxlength: 100,
     },
+    jobLink: {
+    type: String,
+    default: '', 
+    },
     status: {
       type: String,
       enum: ['Online-Assessment','interview', 'pending', 'declined'],
       default: 'pending',
     },
+    Have_Filled :{
+      type:String,
+      enum : ['Yes','No'],
+      default: 'No',
+    },
      statusDate: {
        type: Date,
        default: null,
+    },
+    notes: {
+      type: String,
+      default: '',
+    },
+    resumeUrl: {
+      type: String,
+      default: '',
     },
     createdBy: {
       type: mongoose.Types.ObjectId,
